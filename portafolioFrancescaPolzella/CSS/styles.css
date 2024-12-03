@@ -1,0 +1,268 @@
+:root{
+    /*Paleta de colores*/
+    /*RECORDATORIO ESCRIBIR LOS COLORES EN INGLES Y TAMBIEN EN CASTELLANO*/
+    --white:#FFFF;
+    --black:#0000;
+    --primary:#076aff;
+    --secondary:#073596;
+    --gris:#9c9c9c;
+   --grisclaro:#dfe9f3;
+    
+  }
+  
+  
+  
+  .Titulo{
+      text-align: center;
+      font-size: 3.8rem;
+      color: #000000;
+      margin-top: 0;
+     
+  }
+  .fondo{
+    background-color: rgb(135,206,235);
+    display: block;
+   
+    font-family:Arial, Helvetica, sans-serif
+  }
+  .fondo2{
+    background-color: white;
+  }
+  html{
+      font-size:  62.5%;
+  }
+  
+  .titulo2{
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+  }
+  .titulo33{
+    display: grid;
+    display: block;
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  margin-top: auto;
+  margin: bottom 1rem;;
+  
+  }
+  .titulo22s{
+      text-align: center;
+      font-size: 2.5rem;
+      color: rgb(0, 0, 0);  
+      margin-bottom: auto;
+      
+  }
+  .titulo3{
+      text-align: center;
+      font-size: 2rem;
+      color: #0c0cc4;
+      margin-bottom: 5%;
+      text-transform: uppercase;
+  }
+  body{
+      font-size: 16px; /* 1rem equivale a 16px*/
+      margin: 0%;
+  }
+  .menu{
+  background-color: #076aff; 
+  }
+  
+  .contenedor{
+      width: 120rem;
+      margin-top: 0px;
+      margin-right:auto;
+      margin-bottom: 0;
+      margin-left:auto;
+  }
+  .menu2{
+      background-color: #076aff;
+      padding: 1rem;
+      display:flex;
+      justify-content: space-around;
+      
+  }  
+  .letras{
+      color: white;
+      text-decoration: none;
+      font: size 3rem;
+      font-weight:bold;
+  }
+  .letras:hover{
+    background-color: #073596;
+    padding: 1rem;
+    color: #000000;
+  }
+  .Image{
+      background-image:url(../Imagenes/istockphoto-1337329904-1024x1024.jpg);
+      background-repeat:no-repeat;
+      background-size: cover;
+      height: 280px;
+      position: relative;
+  }
+  .contenido{
+   position: absolute;
+   background-color: #0000001d;
+   width: 100%;
+   height: 100%;
+   font-size: center;
+   color: white;
+   text-align: center;
+   font-size: 2rem;
+   display: grid;
+   justify-content: center;
+   
+  }
+  .boton{
+      background-color: #0c0cc4;
+      color: white;
+      text-decoration: none;
+     padding: 1rem 2rem;
+     text-transform: uppercase;
+     border-radius: 5rem;
+     text-align: center;
+     border: none;
+     font-weight: bold;
+     font-size:1.5rem;
+  }
+  .boton:hover{
+     background-color: #073596; 
+  }
+  .contenido a{
+      display: grid;
+      place-self: center;
+  }
+  .localizacion{
+      display: flex;
+      align-items: center;
+      text-align: center;
+  }
+  .contenedor2{
+      background-color: #0000;
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+  }
+  .paleta{
+      background-color:#0b07fffc;
+     width: 8rem;
+     height: 8rem;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center; /*en las vision del telefono*/
+  }
+  .parte1{
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      text-align:center;
+      flex-direction:column;
+      margin: 5%;
+  }
+  .acomodar1{
+      display: grid;
+      
+  }
+  
+  .acomodargeneral{
+    border: 1px solid var(--gris);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 40px 4px rgba(0, 0, 0, 0.66);
+   background-color:white;
+   border-radius: 2rem;
+   margin: 2rem 2rem;
+   padding: 2rem 2rem
+  }
+    
+  
+    
+  
+  @media (min-width:768px) {
+      .acomodar2 {
+     /*es parte de los servicios*/
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      border-radius: 0.5rem;
+      transition: all 0.3s ease-in-out;
+     background-color:white;
+     border-radius: 2rem;
+     margin: 2rem 2rem;
+     padding: 2rem 2rem
+
+     /* es parte del formulario*/
+     display: grid;
+     width: min(100%);
+     align-items: center;
+     justify-content: center;
+     margin-top: 0px;
+     margin-right:auto;
+     margin-bottom: 0;
+     margin-left:auto;
+     border-radius: 2rem;
+
+     
+ }
+ 
+    }
+     /* para poner las cosas en columnas una a lado de la otra*/
+     
+  .paleta2{
+  
+      background-color:#0b07fffc;
+      width: 9rem;
+      height: 9rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center; /*en las vision del telefono*/
+   }
+  
+   .contenedor3{
+      display: grid; 
+      align-content: center;
+      border-radius: 1rem;
+      background-color: rgba(91, 90, 90, 0.51);
+      color: rgb(5, 5, 5);
+     text-transform: capitalize;
+     font-size:1.5rem;
+     padding: 14rem 14rem;
+     width: 10rem;
+     height: 10rem;
+     justify-content: center;
+     margin-right:auto;
+     margin-left:auto;
+
+   }
+
+   .boton2{
+    background-color:#076aff;
+    color: white;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-left: 85.5%;
+    cursor: pointer;
+    border: none;
+    
+  }
+   
+   .formulario2{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2,1fr);
+    margin-block-end: 3%;
+    border-radius: 1rem;
+}
+   .formulario3{
+    margin-block-end: 3%;
+    border-radius: 1rem;
+   }
+   .pie{
+    text-align: center;
+   }
